@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["Object/Project/p-main--slider__hover__click-here.scss"],"names":[],"mappings":"AAAA;EACI;EACA","file":"Object/Project/p-main--slider__hover__click-here.css","sourcesContent":[".p-main--slider__hover__click-here{\r\n    border:#fff solid;\r\n    padding:3rem 2rem;\r\n}"]}

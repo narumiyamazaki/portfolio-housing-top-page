@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.p-heading3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #D61043;
+  text-shadow: #ffffff -1px -1px 0px, #ffffff -1px 1px 0px, #ffffff 1px 1px 0px, #ffffff 1px -1px 0px;
+  font-family: skip, ms gothic, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, osaka, sans-serif;
+}
+/*# sourceMappingURL=p-top-head--heading3.css.map */

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>JamHomeエステートとは</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <!-- slickのCSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    
+        <!--モーダルウィンドウのCSS-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+        <!--自作のCSS-->
+        <link href="./css/style.css" rel="stylesheet">
+    <!--jQuery-->      
+    </head>
+	<body class="p-body">
+        <header class="l-header">
+            <!--ロゴ-->
+            <h1 class="p-header--heading1">
+                <a href="http://localhost:3000/"><img class="p-header--logo" src="images/logo.png"></a>
+            </h1>
+            <div class="p-header--link">
+                <p class="p-nav-btn">
+                    <a href="javascript:void(0)"><span>メニューを開く</span></a>
+                </p>
+                <nav class="p-header--nav-body">
+                    <ul class="p-main-menu">
+                        <a class="p-header--home-link" href="http://localhost:3000/">TOPページ</a>
+                        <li class="p-nav--about">
+                            <a class="" href="#">JamHomeエステートとは</a>
+                            <ul class="p-sub-menu--about">
+                                <li><a href="#">お客様の声</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav--custom-home">
+                            <a href="https://dns0831.wixsite.com/demo/%E6%B3%A8%E7%9B%AE%E7%89%A9%E4%BB%B6%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B">こだわりの注文住宅</a>
+                            <ul class="p-sub-menu--custom-home">
+                                <li><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E6%80%A7%E8%83%BD-%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88">オリジナル注文住宅</a></li>
+                                <li><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85">リノベーション</a></li>
+                                <li><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-1">性能&amp;サポート</a></li>
+                                <li><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B">アフターサービス</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav--building-example"><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-jamhome%E3%82%A8%E3%82%B9%E3%83%86%E3%83%BC%E3%83%88%E3%81%A8%E3%81%AF">こだわりの建築事例</a>
+                            <ul class="p-sub-menu--building-example">
+                                <li><a href="#">施工事例</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav--flow-from-order"><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-jamhome%E3%82%A8%E3%82%B9%E3%83%86%E3%83%BC%E3%83%88%E3%81%A8%E3%81%AF-1">ご注文からの流れ</a></li>
+                        <li class="p-nav--company-profile">
+                            <a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-jam%E8%AA%9E%E9%8C%B2">会社概要</a>
+                            <ul class="p-sub-menu--company-profile">
+                                <li><a href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E5%A3%B0">GALLERY</a></li>
+                            </ul>
+                        </li>
+                        <div class="p-icon--header__wrapper">
+                            <div class="p-icon--header__facebook"></div>
+                            <div class="p-icon--header__twitter"><a href="https://twitter.com/wixjp"></a></div>
+                            <div class="p-icon--header__youtube"><a href="https://www.youtube.com/channel/UC7QbSuH88IA0yW9W6AOQHJQ"></a></div>
+                            <div class="p-icon--header__instagram"><a href="https://www.instagram.com/marble1431/?hl=ja"></a></div>
+                        </div>
+                        <a class="p-contact" href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC"></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="p-main">
+            <div class="p-main--file-pass">
+                <a class="p-file-pass--link" href="index.html">HOME</a>
+                <span class="p-file-pass--text">/&#032;会社案内</span>
+            </div>
+            <div class="p-top--background__photo"></div>
+            <article class="p-article--about-us__profile">
+                <section class="p-section--about-us">
+                    <div class="p-section--about-us__treatment"></div>
+                    <h2 class="p-section--about-us__heading2">ABOUT&nbsp;US</h2>
+                    <p class="p-section--about-us__translation">わたしたちについて</p>
+                    <h3 class="p-section--about-us__heading3">「顧客満足度一番」の家づくりを目指して</h3>
+                    <div class="p-section--about-us__text__wrapper">
+                        <p class="p-section--about-us__text">JamHomeエステートは、住宅建築業界で多年にわたり仕事をしてきたスタッフがその経験と知識を最大限に活かして、徹底的にお客様に寄り添い「顧客満足度一番」の家づくりを目指すとの理念の下に2009年に創業いたしました。</p>
+                        <p class="p-section--about-us__text">まだ若い会社ですが、スタッフ一同「仕事を通じて、お客様をはじめ家作りにかかわる全ての人とどれだけ豊かな人間関係を築くことができるか、それを追い求めることで自然に商売の輪がひろがっていく」という信念で仕事に取り組んでいます。</p>
+                        <p class="p-section--about-us__text">お客様によって「良いお家づくり」は様々だと思います。「安くてまぁまぁ思い通りになってよかったな」だけじゃなく、「あの時この商品を推めてもらってよかったなぁ」とか、「Jamさん楽しかったなぁ」とか、「今日、Jamさん行こうか！」と思っていただける関係を目指しています。 今もほとんどのお客様が、遊びにご来店くださっております。</p>
+                        <p class="p-section--about-us__text">お家探しで知り合ったご縁が、お引渡しが終わった後でも、まるで身内のように。例えば子育てやお仕事の事など、いろいろな相談ができる会社でありたいと願っております。地域の皆様から愛され、お気軽にお立ち寄りいただいて、JamHomeエステートを楽しんでいただけるように、日々努力・精進してまいります。</p>
+                        <p class="p-section--about-us__text">素敵な雑貨やかわいいネコちゃん、素敵なスタッフがおりますので、お気軽に是非一度、ふらぁりと遊びにいらしてください。</p>
+                        <p class="p-section--about-us__text">スタッフ一同、心よりお会いできることを楽しみにしております。</p>
+                        <p class="p-section--about-us__text__name"><span class="u-margin--right__2rem">代表取締役</span>三好&nbsp;順子</p>
+                    </div>
+                </section>
+                <div class="p-article--about-us__chandelier"></div>
+                <div class="p-article--about-us__mirror__wrapper inview">
+                    <div class="p-article--about-us__mirror__inner inview"></div>
+                    <div class="p-article--about-us__mirror"></div>
+                </div>
+                <div class="p-article--about-us__mug"></div>
+                <div class="p-article--about-us__sofa"></div>
+                <div class="p-article--about-us__jam inview"></div>
+            </article>
+            <article class="p-article--philosophy">
+                <section class="p-article--philosophy__wrapper">
+                    <div class="p-article--philosophy__left">
+                        <div class="p-article--philosophy__treatment"></div>
+                        <h2 class="p-article--philosophy__heading2">PHILOSOPHY</h2>
+                        <p class="p-article--philosophy__translation">企業指針</p>
+                        <p class="p-article--philosophy__book-cover__text__tb">志・目標は高く徳のある企業を目指して</p>
+                        <p class="p-article--philosophy__text">JamHomeエステートは「地域で必要な企業であること」を使命としています。良いモノづくりをしてお客様に感動・満足を届けるのは当たり前のことですが　事業活動が社会に役立つものであることが重要です。</p>
+                        <p class="p-article--philosophy__text">JamHomeエステートでは次の事を大切にしています。</p>
+                        <ul class="p-article--philosophy__text__list">
+                            <li class="p-article--philosophy__text__list__item">1. お客様に安心・信頼していただける商品を提供すること。</li>
+                            <li class="p-article--philosophy__text__list__item">2. 家づくりにかかわらず「ここに来ると癒される」「楽しめる」「ホッとする」すなわち地域の人々の日常の暮らしに必要な信頼できる企業として存在し、暮らしに役立つ情報や接客サービスを提供し、健全な利益をあげて納税という形で社会に還元すること。</li>
+                            <li class="p-article--philosophy__text__list__item">3. 地域経済活性化のために雇用を増やすこと。</li>
+                            <li class="p-article--philosophy__text__list__item">4. JamHomeエステートに関わっている全てのスタッフが満足していること。</li>
+                        </ul>
+                        <p class="p-article--philosophy__text">幸せなスタッフはお客様にも幸せを運ぶことができると信じています。まだ若い会社ですが「志・目標は高く」「徳のある企業」としてお客様と一緒に成長していきたいと考えております。</p>
+                        <p class="p-article--philosophy__text">こちらをご覧いただいてる方々が是非JamHomeエステートに集っていただけますように心から願い、お会いできることを楽しみにお待ちしております！</p>
+                    </div>
+                    <div class="p-article--philosophy__book-cover__left">
+                        <p class="p-article--philosophy__book-cover__text">志・目標は高く<br>徳のある企業を目指して</p>
+                        <div class="p-article--philosophy__book-cover__right"></div>
+                    </div>
+                </section>
+                <div class="p-article--philosophy__cat"></div>
+            </article>
+            <section class="p-section--company-profile">
+                <h2 class="p-section--company-profile__heading2">COMPANY&nbsp;PROFILE</h2>
+                <p class="p-article--company__translation">会社概要</p>
+                <div class="p-section--company-profile__contents__wrapper">
+                    <table class="p-section--company-profile__table">
+                        <tr class="p-section--company-profile__table__frame">
+                            <td class="p-section--company-profile__table-data" width="100"><span class="u-margin--right__15px"></span>商<span class="u-margin--right__10px"></span>号</td>
+                            <td class="p-section--company-profile__table-data">株式会社JamHomeエステート</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame">
+                            <td class="p-section--company-profile__table-data"><span class="u-margin--right__15px"></span>代表者</td>
+                            <td class="p-section--company-profile__table-data">代表取締役&nbsp;三好順子</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame">
+                            <td class="p-section--company-profile__table-data"><span class="u-margin--right__15px"></span>所在地</td>
+                            <td class="p-section--company-profile__table-data">&#12306;675-0017&nbsp;<br class="u-br--tb">兵庫県加古川市野口町良野414-1</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame">
+                            <td class="p-section--company-profile__table-data"><span class="u-margin--right__15px"></span>連絡先</td>
+                            <td class="p-section--company-profile__table-data">TEL.079-423-8835&nbsp;/<br class="u-br--tb">&nbsp;FAX.079-423-8836</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame">
+                            <td class="p-section--company-profile__table-data__business-contents__item"><span class="u-margin--table-data__business-contents"></span>事業内容</td>
+                            <td class="p-section--company-profile__table-data">注文住宅の企画・施工/リフォーム<br>不動産の売買、仲介および管理</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame__number">
+                            <td class="p-section--company-profile__table-data__number__item"><span class="u-margin--table-data__number"></span>宅地建築取引業者票登録番号</td>
+                            <td colspan="2" class="p-section--company-profile__table-data__number__item2"><span class="u-display--none__block">宅地建築取引業者票登録番号</span>兵庫県知事（3）第401383<br>（一社）兵庫県宅地建物取引業協会会員<br>（公社）全国宅地建物取引業保証協会会員<br>（公社）近畿地区不動産公正取引協議会加盟<br>兵庫県知事&nbsp;許可（般-28）第4070105号</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame__register">
+                            <td class="p-section--company-profile__table-data__register__item"><span class="u-margin--right__15px"></span>建設業登録番号</td></span>
+                            <td class="p-section--company-profile__table-data"><span class="u-display--none__block">建設業登録番号</span>兵庫県知事&nbsp;許可（般-28）第4070105号</td>
+                        </tr>
+                        <tr class="p-section--company-profile__table__frame">
+                            <td class="p-section--company-profile__table-data"><span class="u-margin--right__15px"></span>関連サービス</td>
+                            <td class="p-section--company-profile__table-data"><span class="u-display--none__block">譲渡型保護猫カフェ</span>「マーブルカフェ」</td>
+                        </tr>
+                    </table>
+                    <img class="p-section--company-profile__img" src="images/cat-company-profile.jpg">
+                </div>
+            </section>
+            <aside class="p-aside--access-map">
+                <h2 class="p-aside--access-map__heading2">ACCESS&nbsp;MAP</h2>
+                <p class="p--aside--access-map__translation">案内地図</p>
+                <div class="p-aside--access-map__wrapper">
+                    <img class="p-aside--access-map__img" src="images/access-map-img.png" alt="jamHomeのアクセスマップイラスト">
+                    <img class="p-aside--access-map__img__photo__tb" src="images/jamHome-access-photo.jpg" alt="jamHomeのアクセスマップ写真">
+                    <div class="p-aside--access-map__text__wrapper">
+                        <p class="p-aside--access-map__text">&lt;ジャムホームエステートへのアクセス&gt;<br>加古川市役所とハローワークが並んだ道沿いの東側に位置しています。<br>赤・黄・青のカラフルな建物『JamDreamHouse（ジャムドリームハウス）』が<br>JamHomeエステートのモデルハウスです。</p>
+                        <p class="p-aside--access-map__text__parking">&lt;お車でお越しのお客様へ&gt;<br>ゆったりお停めいただけるよう9台の駐車スペースをご用意しております。<br>満車の場合はスタッフがご案内いたしますのでお申し付けください。<br>カーナビでお越しの際は『加古川市野口町良野414』でお越しください。</p>
+                    </div>
+                </div>
+                <div class="p-aside--access-map__img__wrapper">
+                    <img class="p-aside--access-map__img__photo" src="images/jamHome-access-photo.jpg" alt="jamHomeのアクセスマップ写真">
+                    <img class="p-aside--access-map__img__parking" src="images/parking.png" alt="jamHomeの駐車場アクセスマップ">
+                    <p class="p-aside--access-map__text__parking__tb">&lt;お車でお越しのお客様へ&gt;<br>ゆったりお停めいただけるよう9台の駐車スペースをご用意しております。<br>満車の場合はスタッフがご案内いたしますのでお申し付けください。<br>カーナビでお越しの際は『加古川市野口町良野414』でお越しください。</p>
+                </div>
+            </aside>
+            <iframe class="p-google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60615.01355910373!2d134.80770534132716!3d34.72958747031738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554d83d3311232f%3A0xb636e72be976d5cb!2z77yq772B772N77yo772P772N772F44Ko44K544OG44O844OI!5e0!3m2!1sja!2sjp!4v1639027242114!5m2!1sja!2sjp" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </main>
+        <footer class="l-footer">
+            <address class="p-footer--icon__wrapper">
+                <a href="#">
+                    <div class="p-footer--icon__facebook"></div>
+                </a>
+                <a href="https://twitter.com/wixjp">
+                    <div class="p-footer--icon__twitter"></div>
+                </a>
+                </div>
+                <a href="https://www.youtube.com/channel/UC7QbSuH88IA0yW9W6AOQHJQ">
+                    <div class="p-footer--icon__youtube"></div>
+                </a>
+                <a href="https://www.instagram.com/marble1431/?hl=ja">
+                    <div class="p-footer--icon__instagram"></div>
+                </a>
+            </address>>
+            <div class="p-footer--link__wrapper">
+                <a class="p-footer--link__text" href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-jam%E8%AA%9E%E9%8C%B2">COMPANY</a>
+                <a class="p-footer--link__text" href="https://dns0831.wixsite.com/demo/%E8%A4%87%E8%A3%BD-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC">CANTACT</a>
+            </div>
+            <div class="p-footer--company-profile__wrapper">
+                <p class="p-footer--company-profile__text">株式会社JamHomeエステート<span class="p-footer--company-profile__space">兵庫県加古川市野口町414-1</span></p>
+                <adress class="p-footer--company-profile__text">TEL.079-423-8835<span class="p-footer--company-profile__space"></span>FAX.079-423-8836</adress>
+                <a class="p-footer--summo"></a>
+            </div>
+            <div class="p-footer--copy">&copy;JAM&nbsp;HOME&nbsp;ESTATE&nbsp;2021&nbsp;Co.,LTD.ALL&nbsp;RIGHTS&nbsp;RESERVED</div>
+        </footer>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- slickのJavaScript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--Modaal-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <!--rellax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <!--inview-->
+    <script src="js/jquery.inview.min.js"></script>
+    <!--自作JS-->
+    <script src="js/on.click.js"></script>
+    <script src="js/fade-down.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/get-header-height.js"></script>
+    <script src="js/slider-auto.js"></script>
+    <script src="js/modaal.js"></script>
+    <script src="js/scroll-img.js"></script>
+    <script src="js/inview-event.js"></script>
+    <!--
+    <script src="js/rellax.js"></script>
+    -->
+    </body>
+</html>

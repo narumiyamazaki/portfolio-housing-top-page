@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["Object/Project/p-article--quality-support__safety__img__wrapper.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA","file":"Object/Project/p-article--quality-support__safety__img__wrapper.css","sourcesContent":[".p-article--quality-support__safety__wrapper{\r\n    position:relative;\r\n    width:20rem;\r\n    height:15rem;\r\n}"]}
