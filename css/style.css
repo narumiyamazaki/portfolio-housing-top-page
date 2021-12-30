@@ -596,6 +596,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100vw;
   z-index: 100;
   justify-content: space-between;
   background: #fff;
@@ -987,7 +988,7 @@ a {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 3rem;
+  top: 20%;
   align-items: center;
   width: 100%;
 }
